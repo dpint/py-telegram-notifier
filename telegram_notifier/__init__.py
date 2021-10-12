@@ -40,7 +40,7 @@ def send_message(message: str, **kwargs) -> Optional[Response]:
 
 
 def escape_specials(to_escape: str) -> str:
-    return to_escape.replace("_", "\\_").replace("*", "\\*").replace("[", "\\[").replace("`", "\\`")
+    return to_escape
 
 
 def set_config_options(
